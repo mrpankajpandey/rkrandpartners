@@ -1,5 +1,9 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Header from "@/components/header/Header";
+import Footer from "@/components/footer/Footer";
+import Link from "next/link";
+import Hero from "@/components/hero/Hero";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -22,7 +26,17 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <Header/>
+
+     
         {children}
+        <div className="fixed bottom-12 left-12 cursor-pointer z-50 flex justify-center items-center">
+        <Link href="#">
+      <img className="block h-20 w-20" title="WhatsApp us" id="style-99" src="https://vakeelsahabup.com/wp-content/uploads/2021/12/372108180_WHATSAPP_ICON_400.gif" alt="WhatsApp us"/>
+        </Link>
+      </div>
+
+        {/* <Footer/> */}
       </body>
     </html>
   );
