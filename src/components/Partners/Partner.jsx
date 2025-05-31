@@ -15,6 +15,8 @@ const teamMembers = [
       "Rajendra Kumar is founder of the IP law firm, RKR & Partners. He has been practicing intellectual property laws for the past almost 40 years, of which the last 29 years as a co-founding member of the IP law firm, K&S Partners where he chaired the litigation practice of the firm relating to trademarks, copyrights and geographical indication disputes. He holds a PG diploma in the UK, US and European Law of Copyrights and Related Rights from King’s College, London, United Kingdom. He has a wide-ranging extensive experience in handling all aspects of prosecution and enforcement of trade marks, copyright and geographical indications. His expertise extends to the handling of TRIPS related issues, protection of copyright in the digital context, domain name disputes and intellectual property aspects of the entertainment industry and the Internet. He assisted the Government of India in preparing the first draft of the Geographical Indication of Goods (Registration and Protection) Act, 1999 in consultation with the World Intellectual Property Organization (WIPO). In 2005, Rajendra Kumar, co-authored a seminal work on geographical indications titled, “Geographical Indications: A Search for Identity”, published by Lexis Nexis Butterworths. Rajendra regularly appears before the IP Offices, various District and High Courts as well as the Supreme Court of India. He successfully argued before the High Court of Delhi in two of India’s land-mark cases, Microfibres v Girdhar on the overlap between designs and copyright and Super Cassettes v Myspace on the availability of safe-harbour provisions to an intermediary in a claim for copyright infringement.",
     ],
   },
+ 
+
 ];
 
 export default function AboutFounder() {
@@ -85,7 +87,7 @@ export default function AboutFounder() {
                   </div>
 
                   <Link
-                    href={`/about/${member.id}`}
+                    href={`/people/${member.id}`}
                     className="inline-flex items-center mt-6 px-6 py-3 bg-[#1c398e] text-white rounded-lg hover:bg-[#1c398e] transition-colors duration-300 space-x-2 group"
                   >
                     <span>Read More</span>

@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import about from "@/components/about/assets/founder.png";
+import about from "@/components/about-hero/assets/founder.png";
 import { Button } from "../ui/button";
 import { motion } from "framer-motion";
 

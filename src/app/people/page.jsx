@@ -4,8 +4,11 @@ import Partners from "@/components/Partners/Partner"
 export default function About(){
     return (
         <>
-        <Hero/>
-        {/* <Partners/> */}
+        <div className="bg-white py-20">
+
+        <Partners/>
+        </div>
+        {/* <Hero/> */}
         </>
     )
 

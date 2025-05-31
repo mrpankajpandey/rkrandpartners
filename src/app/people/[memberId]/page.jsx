@@ -71,8 +71,8 @@ export default function TeamMemberPage(props) {
       <div className="w-full bg-white">
         <div className="bg-white container mx-auto px-4 py-8 pt-20 max-w-5xl">
           <Link
-            href="/about"
-            className="inline-flex items-center text-[#67ac4d] hover:text-[#9ac34d] mb-6"
+            href="/people"
+            className="inline-flex items-center text-[#1c398e] hover:text-[#1c398e] mb-6"
           >
             <ArrowLeft className="w-4 h-4 mr-2" /> Back to Team
           </Link>
@@ -92,7 +92,7 @@ export default function TeamMemberPage(props) {
                 <h1 className="text-2xl font-bold text-[#38434d] mb-2">
                   {member.name}
                 </h1>
-                <h2 className="text-lg text-[#67ac4d] mb-3">{member.role}</h2>
+                <h2 className="text-lg text-[#1c398e] mb-3">{member.role}</h2>
                 <p className="text-gray-600">{member.description}</p>
               </div>
             </div>
@@ -101,14 +101,14 @@ export default function TeamMemberPage(props) {
           {/* Main Content */}
           <div className="">
             <div className="bg-white rounded-xl shadow-sm px-6 py-2">
-              <h3 className="text-lg font-semibold text-[#9ac34d] mb-4 ml-[-10px]">
+              <h3 className="text-lg font-semibold text-[#1c398e] mb-4 ml-[-10px]">
                 Professional Background
               </h3>
               <ul className="list-disc pl-6 space-y-4">
                 {member.fullDescription.map((desc, index) => (
                   <li
                     key={index}
-                    className="text-gray-700 py-1 pl-2 marker:text-[#67ac4d]"
+                    className="text-gray-700 py-1 pl-2 marker:text-[#1c398e]"
                   >
                     {desc}
                   </li>
@@ -125,7 +125,7 @@ export default function TeamMemberPage(props) {
                   {member.education.map((edu, index) => (
                     <li
                       key={index}
-                      className="text-gray-700 py-1 pl-2 marker:text-[#9ac34d]"
+                      className="text-gray-700 py-1 pl-2 marker:text-[#1c398e]"
                     >
                       {edu}
                     </li>

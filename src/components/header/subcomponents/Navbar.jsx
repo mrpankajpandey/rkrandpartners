@@ -11,10 +11,10 @@ export default function Navbar() {
       path: "/",
     },
     { name: "About Us", path: "/about" },
-    { name: "People", path: "/service" },
-    { name: "Areas of Practice", path: "#1" },
-    { name: "Knowledge Bank", path: "#2" },
-    { name: "Contact", path: "#3" },
+    { name: "People", path: "/people" },
+    { name: "Areas of Practice", path: "/area-practice" },
+    { name: "Knowledge Bank", path: "/knowledge" },
+    { name: "Contact", path: "/contact" },
   ];
 
   return (

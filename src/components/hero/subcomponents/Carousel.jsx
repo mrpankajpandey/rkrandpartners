@@ -69,8 +69,8 @@ export default function Carousel() {
             />
             {/* Text and Button Overlay */}
             {index === currentIndex && (
-              <div className="absolute inset-0 flex flex-col gap-4  items-center pt-32 pb-20 pl-10  text-white bg-black/30">
-                <h2 className="text-3xl md:text-5xl font-bold mb-4 w-3xl ">{slide.title}</h2>
+              <div className="absolute inset-0 flex flex-col gap-4  items-center pt-32 pb-20 text-white bg-black/30 ">
+                <h2 className="text-3xl md:text-5xl font-bold mb-4 w-3xl">{slide.title}</h2>
                 <p className= "w-3xl text-white text-sm lg:text-lg font-medium leading-relaxed mb-4">{slide.description}</p>
                 <Button className="px-6 py-2 w-48 bg-blue-700 hover:bg-blue-900 rounded-full text-white text-lg">
                   {slide.buttonText}
