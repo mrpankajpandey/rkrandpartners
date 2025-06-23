@@ -4,9 +4,9 @@ import Link from 'next/link';
 
 export default function Partners() {
   const channels = [
-    { name: "Internationa Trademark Association", logo: "/inta.jpeg", link: "https://www.vaakassociates.com/" },
-    { name: "oraganization for an International Geographical Indications Network", logo: "/Origin.png", link: "https://hotelmoksha.in/" },
-    { name: "ASSIAN PATENT ATTORNEYS ASSOCIATION", logo: "/logo2.png", link: "https://thelegalone.in/" },
+    { name: "Internationa Trademark Association", logo: "./memberships/inta.jpeg", link: "https://www.vaakassociates.com/" },
+    { name: "oraganization for an International Geographical Indications Network", logo: "./memberships/Origin.png", link: "https://hotelmoksha.in/" },
+    { name: "ASSIAN PATENT ATTORNEYS ASSOCIATION", logo: "./memberships/logo2.png", link: "https://thelegalone.in/" },
    
   ];
 
@@ -25,7 +25,7 @@ export default function Partners() {
               className="mx-8 flex items-center justify-center min-w-[140px] relative"
             >
               <Link href={channel.link} target="_blank">
-                <Image
+                <img
                   src={channel.logo}
                   alt={`${channel.name} logo`}
                   width={120}

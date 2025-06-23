@@ -3,21 +3,21 @@ import { useState } from "react";
 
 const slides = [
   {
-    src: "./appointment-bg.jpg",
+    src: "./Carousel/appointment-bg.jpg",
     alt: "Slide 1",
     title: "Dedicated Tax Lawyers Team For Quick Resolution",
     description:"Our Motive to Talk With Respective Taxpayers on call & Provide Exact Legal Openion to Resolve Tax Related issues as soon as possible– We are awaiting Taxpayers Call",
     buttonText: "Book Appointment",
   },
   {
-    src: "./contact-bg.jpg",
+    src: "./Carousel/contact-bg.jpg",
     alt: "img",
     title: "Our Legal Team Help To Solve Your Tax Issues",
     buttonText: "Book Apointment",
     description:"Quickly observe your query according your’s thought & resolve with guidence as per act."
   },
   {
-    src: "./about-us-1-1-bg.jpg",
+    src: "./Carousel/about-us-1-1-bg.jpg",
     alt: "img",
     title: "We Are Expert In A Lot Of Legal Area",
     buttonText: "Book Apointment",
@@ -25,7 +25,7 @@ const slides = [
   },
   
   {
-    src: "./about-us-1-1.jpg",
+    src: "./Carousel/about-us-1-1.jpg",
     alt: "img",
     title: "Get in touch with us for your Legal Issues",
     buttonText: "Book Apointment",

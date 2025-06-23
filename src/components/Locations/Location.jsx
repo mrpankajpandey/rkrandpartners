@@ -38,20 +38,13 @@ const Location = () => {
     const Offices =[
         {
             
-            city:"Delhi",
-            address:"C-122, Kailash Enclave, Sector-18, Vrindavan Yojna, Lucknow (U.P) 226209.",
-            phone:"+91-8090407321/9450936444",
-            email:"test@gmail.com",
+            city:"Gurugram, Haryana",
+            address:"Ivory 178, Ground Fl; Emerald Hills Select, Sector 65, Gurugram, Haryana 122018, INDIA.",
+            phone:"+911244291547",
+            email:"info@rkrandpartners.com",
             icon: IconLocationShare,
         },
-        {
-            
-            city:"Delhi",
-            address:"C-122, Kailash Enclave, Sector-18, Vrindavan Yojna, Lucknow (U.P) 226209.",
-            phone:"+91-8090407321/9450936444",
-            email:"test@gmail.com",
-            icon: IconLocationShare,
-        },
+
         
     ]
   return (
