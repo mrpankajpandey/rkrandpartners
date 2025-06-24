@@ -61,7 +61,7 @@ export default function Carousel() {
             <img
               src={slide.src}
               alt={slide.alt}
-              className="absolute block w-full h-full object-cover opacity-25"
+              className="absolute block w-full h-full object-cover opacity-100"
             />
             {/* Text and Button Overlay */}
             {index === currentIndex && (
