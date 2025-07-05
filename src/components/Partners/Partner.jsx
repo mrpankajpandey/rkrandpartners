@@ -29,8 +29,8 @@ const teamMembers = [
     ],
   },
   {
-    id: "ashish-rai",
-    name: "Ashish Rai",
+    id: "pragya",
+    name: "Pragya",
     role: "Patent Consultant",
     email:"pragya@rkrandpartners.com",
     image: "./Partners/prayga-thakur-jpg.webp",
